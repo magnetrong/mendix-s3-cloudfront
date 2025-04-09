@@ -44,11 +44,15 @@ After successful deployment, go to the Outputs tab in CloudFormation to find:
 - S3 Bucket Name
 - CloudFront Distribution Domain
 
+![deploy-aws-resources](https://raw.githubusercontent.com/magnetrong/mendix-s3-cloudfront/refs/heads/main/cloudformation/assets/deploy-aws-resources.gif)
+
 ### Upload Your Video
 
 1. Navigate to the created S3 bucket
 2. Upload your video file
 3. Verify the file is accessible via the CloudFront URL, the URL at which you can access the video file should be the distribution endpoint + your video file name. E.g., `https://1234abc.cloudfront.net/video.mp4`
+
+![upload-video](https://raw.githubusercontent.com/magnetrong/mendix-s3-cloudfront/refs/heads/main/cloudformation/assets/upload-video.gif)
 
 ### Integrate with Mendix
 
